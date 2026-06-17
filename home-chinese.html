@@ -2,13 +2,16 @@
 <html lang="zh">
 <head>
   <meta charset="utf-8">
-  <title>Home | SinoLink Deutschland</title>
-  <meta content="SinoLink Deutschland — your partner for end-to-end supply chain, sourcing, and logistics solutions between Europe and Asia." name="description">
-  <meta content="Home | SinoLink Deutschland" property="og:title">
-  <meta content="End-to-end supply chain solutions. Supplier identification, quality assurance, logistics management — SinoLink Deutschland." property="og:description">
-  <meta content="Home | SinoLink Deutschland" name="twitter:title">
-  <meta content="End-to-end supply chain solutions. Supplier identification, quality assurance, logistics management — SinoLink Deutschland." name="twitter:description">
+  <script>document.documentElement.style.overflow='hidden';document.addEventListener('DOMContentLoaded',function(){document.body.style.overflow='hidden';});</script>
+  <title>首页 | SinoLink Deutschland</title>
+  <meta content="SinoLink Deutschland — 您的欧亚供应链、采购及物流端到端解决方案合作伙伴。" name="description">
+  <meta content="首页 | SinoLink Deutschland" property="og:title">
+  <meta content="端到端供应链解决方案。供应商识别、质量保证、物流管理 — SinoLink Deutschland。" property="og:description">
+  <meta content="首页 | SinoLink Deutschland" name="twitter:title">
+  <meta content="端到端供应链解决方案。供应商识别、质量保证、物流管理 — SinoLink Deutschland。" name="twitter:description">
   <meta property="og:type" content="website">
+  <meta content="https://www.sinolink.de/images/banner-2.png" property="og:image">
+  <meta content="https://www.sinolink.de/images/banner-2.png" name="twitter:image">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet">
@@ -25,11 +28,8 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
-/* === SinoLink mobile nav — tablet & smaller only === */
 @media (max-width: 991px) {
-  /* 1. Hide hamburger */
   .walsh-menu-button-2 { display: none !important; }
-  /* 2. Nav menu always visible in bar */
   .walsh-nav-menu-green-2 {
     display: flex !important;
     position: static !important;
@@ -39,9 +39,7 @@
     margin-left: auto !important;
     transform: none !important;
   }
-  /* 3. Hide ABOUT US / SERVICES / CONTACT */
   .walsh-nav-menu-green-2 .nav-text-link { display: none !important; }
-  /* 4. Language toggle — flag left, chevron right, spaced */
   .walsh-dropdown-2 .walsh-toggle-2 {
     display: flex !important;
     align-items: center !important;
@@ -59,7 +57,6 @@
     color: #8b8b8b !important;
     order: 2 !important;
   }
-  /* 5. Dropdown closed by default — only show when .w--open */
   .walsh-dropdown-2 .walsh-dropdown-list-2 {
     display: none !important;
   }
@@ -79,7 +76,6 @@
     z-index: 1001 !important;
     min-width: auto !important;
   }
-  /* 6. Language options — flags only, centered */
   .walsh-dropdown-2 .walsh-dropdown-link-2 {
     display: flex !important;
     align-items: center !important;
@@ -88,16 +84,14 @@
     border-radius: 0 !important;
   }
   .walsh-dropdown-2 .walsh-dropdown-link-2:hover { background: #f5f5f5 !important; }
-  /* 7. Hide current page's language from the dropdown list */
   .walsh-dropdown-link-2.w--current { display: none !important; }
+  .walsh-container-nav-2 { padding-right: 5% !important; }
 }
-/* === Smoothing === */
 .animation-underline { display: none !important; }
 .walsh-icon-dropdown-2 { transition: transform .25s ease; }
 .walsh-toggle-2.w--open .walsh-icon-dropdown-2 { transform: rotate(180deg); }
 .nav-link, .w-nav-link { transition: color .25s ease !important; }
 
-/* === Form validation === */
 .contact-minimal-input.sl-err { border-color: #e74c3c !important; background: rgba(231,76,60,.04) !important; }
 .contact-minimal-input.sl-ok  { border-color: rgba(39,174,96,.5) !important; }
 .sl-field-error {
@@ -111,7 +105,6 @@
 }
 .sl-field-error.show { display: block; }
 
-/* === Services scroll-in animation === */
 .services-list-left {
   opacity: 0;
   transform: translateX(-22px);
@@ -153,8 +146,10 @@
 .contact-minimal-submit:hover { color: #111 !important; }
 .contact-minimal-input:focus { outline: none !important; border-color: rgba(0,0,0,0.3) !important; }
 
-/* === Push the 01–04 services list block toward the right edge of the section, on every screen size === */
 .services-list-right { justify-self: end; margin-left: auto; max-width: 760px; }
+@media (max-width: 991px) {
+  .services-list-right { justify-self: stretch; margin-left: 0; max-width: none; }
+}
 </style>
   <script src="https://cdn.prod.website-files.com/6a1988f9e12be13152632d3e%2F689e5ba67671442434f3ca35%2F6a25277b6681599b3d2cda54%2Fsinolinkinit-1.0.0.js"></script>
 </head>
@@ -163,7 +158,7 @@
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="walsh-main-nav-2 w-nav">
       <div class="walsh-container-nav-2 w-container">
         <div class="walsh-inner-nav-2">
-          <a href="home-chinese.html" class="walsh-brand-block-2 w-nav-brand"><img loading="lazy" src="images/sinolink-grey.svg" alt="" class="walsh-nav-logo-2"></a>
+          <a href="home-chinese.html" class="walsh-brand-block-2 w-nav-brand"><img loading="lazy" src="images/sinolink-grey.svg" alt="SinoLink Deutschland" class="walsh-nav-logo-2"></a>
           <nav role="navigation" class="walsh-nav-menu-green-2 w-nav-menu">
             <div data-w-id="96a1d674-e85a-05f0-3e90-4ba300308389" class="nav-text-link">
               <a href="#about" class="nav-link w-nav-link">关于我们</a>
@@ -504,6 +499,7 @@
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js"></script>
   <script src="https://cdn.prod.website-files.com/6a1988f9e12be13152632d3e%2F689e5ba67671442434f3ca35%2F6a2529c02cfaf90092f91ac0%2Fsinolinkpreloaderv2-1.0.0.js"></script>
+  <script>window.addEventListener('load',function(){setTimeout(function(){document.documentElement.style.overflow='';document.body.style.overflow='';},800);});</script>
   <script>
     (function(){
       var io = new IntersectionObserver(function(entries){
