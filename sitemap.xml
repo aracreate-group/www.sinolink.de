@@ -7,6 +7,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.sinolink.de/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.sinolink.de/home-german.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://www.sinolink.de/home-chinese.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sinolink.pt/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -16,6 +17,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.sinolink.de/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.sinolink.de/home-german.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://www.sinolink.de/home-chinese.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sinolink.pt/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -25,6 +27,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.sinolink.de/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.sinolink.de/home-german.html"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://www.sinolink.de/home-chinese.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sinolink.pt/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
