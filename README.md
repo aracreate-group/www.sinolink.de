@@ -26,6 +26,10 @@ Static HTML/CSS/JS site covering two domains from one repository.
 - **`/assets`** must stay reachable by both folders as `../assets/...` (i.e. it needs to sit one level above `de/` and `pt/`, exactly as in this repo). Both domains currently share the same images, videos, fonts, and CSS/JS from this one folder — nothing is duplicated.
 - The Portuguese page's "Legal Notice" / "Privacy Policy" footer links currently point at `../de/impressum.html` and `../de/privacy-policy.html` — i.e. `sinolink.pt` currently reuses the legal pages hosted on `sinolink.de`. If the two domains are ever deployed to **separate, unrelated hosting** (not sharing a filesystem), these links need to be changed to full web addresses (e.g. `https://sinolink.de/impressum.html`) instead — same for the language-switcher links between `/de` and `/pt`, which currently use short relative links (`../de/...`, `../pt/...`) that only work while both folders live together.
 
+## Repo rules
+
+- Never push, merge into, or otherwise modify the `main` branch. All work happens on `dev` (or feature branches off `dev`). Deploys to `main`/production only happen when explicitly named and confirmed.
+
 ## Notes
 
 - No build step — plain static HTML, just upload/serve as-is.
