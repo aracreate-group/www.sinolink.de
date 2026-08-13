@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (C) 2026, SinoLink Deutschland
+# Author: Aravinth Panch <ara@aracreate.group>
+# Description: This file contains the crawler rules for sinolink.de
+
+User-agent: *
+Allow: /
+
+Sitemap: https://sinolink.de/sitemap.xml

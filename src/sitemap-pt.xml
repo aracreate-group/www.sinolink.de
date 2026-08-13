@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-License-Identifier: Apache-2.0
+Copyright (C) 2026, SinoLink Deutschland
+Author: Aravinth Panch <ara@aracreate.group>
+Description: This file contains the sitemap for sinolink.pt
+-->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Portuguese is the document root on this domain, and is the only page
+       canonically hosted here. The English, German and Chinese copies served
+       on this domain belong to sinolink.de and are listed in its sitemap.
+       The alternates below are the reciprocal half of that hreflang cluster. -->
+  <url>
+    <loc>https://sinolink.pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://sinolink.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sinolink.de/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sinolink.de/de.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sinolink.de/cn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sinolink.de/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
