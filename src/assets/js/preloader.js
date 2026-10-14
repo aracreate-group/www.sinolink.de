@@ -1,6 +1,6 @@
 /*
  * SPDX-License-Identifier: Apache-2.0
- * Copyright (C) 2026, SINOLINK EUROPE, UNIPESSOAL LDA
+ * Copyright (C) 2026, SINOLINK EUROPE, UNIP. LDA.
  * Author: araCreate Group
  * Description: This file contains the homepage preloader and section fade-in, self-hosted from the former Webflow CDN copy so it shows the local logo
  */
